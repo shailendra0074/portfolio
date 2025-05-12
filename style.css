@@ -296,6 +296,9 @@ h1, h2, h3 {
   
 
  
+  
+
+  @media only screen and (max-width:766px) {
     .m_portfolio {  
     flex-direction: column;
     }
@@ -303,7 +306,7 @@ h1, h2, h3 {
     width: 100%!important;
    margin-left: 0!important;
     }
-  
+  }
   
   .m_portfolio { 
     display: flex;
@@ -311,8 +314,8 @@ h1, h2, h3 {
     margin:0 25px;
     justify-content:space-around;
 }
-
  .screen {
+    width: 28%;
     height: 500px;
     position: relative;
     overflow: hidden;
@@ -322,7 +325,6 @@ h1, h2, h3 {
     margin-left: 8px;
     background: #fff;
     cursor: pointer;
-    max-width: 20%;
 }
   .screen img {
     position: absolute;
@@ -335,6 +337,26 @@ h1, h2, h3 {
     transform: translateY(-76%);
     }
 
+
+     .screen11 {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+      overflow: hidden;
+      margin: 0px;
+      background: #ffffff;
+      cursor: pointer;
+  }
+  .mx_h3 {
+      font-weight: 550;
+      padding: 12px;
+      text-align: center;
+      font-size: 18px;
+  color: #008dad;
+    border-top: 4px solid #7bcbffc9;
+  	}
 
 
 
