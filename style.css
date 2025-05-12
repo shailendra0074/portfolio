@@ -313,7 +313,6 @@ h1, h2, h3 {
 }
 
  .screen {
-    width: 28%;
     height: 500px;
     position: relative;
     overflow: hidden;
@@ -323,6 +322,7 @@ h1, h2, h3 {
     margin-left: 8px;
     background: #fff;
     cursor: pointer;
+    max-width: 20%;
 }
   .screen img {
     position: absolute;
