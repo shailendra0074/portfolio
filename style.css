@@ -13,6 +13,9 @@ a {
 h1, h2, h3 {
     margin: 0;
 }
+#about h3, p{
+  margin-top: 30px;
+}
 
 .btn {
     display: inline-block;
@@ -312,7 +315,6 @@ h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     margin:0 25px;
-    justify-content:space-around;
 }
  .screen {
     width: 28%;
@@ -340,7 +342,6 @@ h1, h2, h3 {
 
      .screen11 {
     width: 100%;
-    height: 60px;
     position: absolute;
     bottom: 0;
     left: 0;
