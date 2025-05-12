@@ -112,7 +112,7 @@ h1, h2, h3 {
 
 .about p {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 /* Projects Section */
