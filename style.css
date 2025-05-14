@@ -315,6 +315,7 @@ h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     margin:0 25px;
+    justify-content: space-around;
 }
  .screen {
     width: 28%;
